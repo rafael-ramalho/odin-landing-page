@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 16px 64px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0 64px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    gap: 64px;
+}
+
+.intro .text{
+    max-width: 500px;
+    flex: 0 1 1;
+}
+
+.text .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border: none;
+    margin-top: 8px;
+}
+
+.intro img {
+    flex: 0 1 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.info .images{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.images .unit {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.unit img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote .text {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.text .author {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 8px;
+}
+
+.container {
+    display: flex;
+    margin: 64px 0px;
+    justify-content: center;
+}
+
+.sign {
+    background-color: #3882F6;
+    padding: 32px 64px;
+    display: flex;
+    gap: 300px;
+    font-size: 16px;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+.text .bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign button {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 16px;
+    text-align: center;
+    padding: 24px 0px;
+}
